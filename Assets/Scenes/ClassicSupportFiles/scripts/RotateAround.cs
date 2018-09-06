@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class RotateAround : MonoBehaviour {
 
-    private Transform target;
     public float speed;
-    private Vector3 rotateLocation;
-    void Start ()
-    {
-        rotateLocation = target.transform.position;
-    }
+    public Vector3 target;
+    
+
     void Update ()
     {
-        this.transform.RotateAround(rotateLocation, Vector3.up, speed * Time.deltaTime);
+        this.transform.RotateAround(target, Vector3.up, speed * Time.deltaTime);
 	}
+
 }
