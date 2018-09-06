@@ -308,7 +308,6 @@
 -d:ENABLE_BURST_AOT
 -d:UNITY_TEAM_LICENSE
 -d:ENABLE_VSTU
--i:"C:/Users/dbree/Desktop/Dustin/college/fall 2018/Game 150/repositories/DustinRepo/Assets/classic/scripts/RotateAround.cs"
--i:"C:/Users/dbree/Desktop/Dustin/college/fall 2018/Game 150/repositories/DustinRepo/Assets/Prefabs.cs"
--i:"C:/Users/dbree/Desktop/Dustin/college/fall 2018/Game 150/repositories/DustinRepo/Assets/scripts/PositionComp.cs"
+-i:"C:/Users/dbree/Desktop/Dustin/college/fall 2018/Game 150/repositories/DustinRepo/Assets/Scenes/ClassicSupportFiles/scripts/Prefabs.cs"
+-i:"C:/Users/dbree/Desktop/Dustin/college/fall 2018/Game 150/repositories/DustinRepo/Assets/Scenes/ClassicSupportFiles/scripts/RotateAround.cs"
 -v:0

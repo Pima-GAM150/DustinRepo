@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class RotateAround : MonoBehaviour {
 
-    public Transform target;
+    private Transform target;
     public float speed;
-    Vector3 rotateLocation;
+    private Vector3 rotateLocation;
     void Start ()
     {
         rotateLocation = target.transform.position;
