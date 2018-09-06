@@ -8,6 +8,6 @@ public class RotateUp : MonoBehaviour {
 	
 
 	void Update () {
-        this.transform.Rotate(Vector3.forward, speed * Time.deltaTime);
+        this.transform.Rotate(Vector3.left, speed * Time.deltaTime);
 	}
 }
